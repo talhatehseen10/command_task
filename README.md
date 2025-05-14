@@ -110,7 +110,7 @@ The UI updates immediately when `tasks` changes.
 
 lib/
 │
-├── views/                      # Feature-based modules
+├── views/                      # Feature-based views
 │   └── home/                     # Home module
 │       ├── model/                # Task model (e.g., fromJson / toJson)
 │       ├── controller/           # GetX controller for Home
@@ -121,7 +121,6 @@ lib/
 ├── services/                     # LLM & voice services (e.g., Gemini, speech-to-text)
 ├── utils/                        # Utility functions (e.g., date parsing)
 ├── routes/                       # App routing and route management
-└── main.dart                     # App entry point
 ---
 
 ## 🧪 Example Command & Response
