@@ -110,7 +110,7 @@ The UI updates immediately when `tasks` changes.
 
 lib/
 │
-├── views/                      # Feature-based views
+├── modules/                      # Feature-based modules
 │   └── home/                     # Home module
 │       ├── model/                # Task model (e.g., fromJson / toJson)
 │       ├── controller/           # GetX controller for Home
@@ -121,7 +121,7 @@ lib/
 ├── services/                     # LLM & voice services (e.g., Gemini, speech-to-text)
 ├── utils/                        # Utility functions (e.g., date parsing)
 ├── routes/                       # App routing and route management
----
+├── bindings/                     # Global bindings (if any)
 
 ## 🧪 Example Command & Response
 
