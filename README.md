@@ -104,24 +104,25 @@ void addTask(Task task) {
 
 The UI updates immediately when `tasks` changes.
 
----
+```
 
 ## 📂 Folder Structure
 
 lib/
 │
-├── modules/                      # Feature-based modules
-│   └── home/                     # Home module
-│       ├── model/                # Task model (e.g., fromJson / toJson)
-│       ├── controller/           # GetX controller for Home
-│       ├── view/                 # UI screens for Home
-│       ├── widgets/              # Reusable UI components
-│       └── binding/              # HomeBinding for dependency injection
+├── modules/ # Feature-based modules
+│ └── home/ # Home module
+│ ├── model/ # Task model (e.g., fromJson / toJson)
+│ ├── controller/ # GetX controller for Home
+│ ├── view/ # UI screens for Home
+│ ├── widgets/ # Reusable UI components
+│ └── binding/ # HomeBinding for dependency injection
 │
-├── services/                     # LLM & voice services (e.g., Gemini, speech-to-text)
-├── utils/                        # Utility functions (e.g., date parsing)
-├── routes/                       # App routing and route management
-├── bindings/                     # Global bindings (if any)
+├── services/ # LLM & voice services (e.g., Gemini, speech-to-text)
+├── utils/ # Utility functions (e.g., date parsing)
+├── routes/ # App routing and route management
+
+```
 
 ## 🧪 Example Command & Response
 
